@@ -1,0 +1,72 @@
+@font-face {
+   font-family:"Titan";
+   src: url(./TitanOne-Regular.ttf)format("truetype");
+}
+h1{
+   font-family:"Titan", sans-srif;
+   color:yellow;
+   text-align: center;
+}
+h2{
+   font-family:"Titan", sans-srif;
+   color:yellow;
+}
+h3{
+   font-family:"Titan", sans-srif;
+   color:red;
+}
+img{
+   border-radius:20px;		
+   display: block;
+   margin: auto;
+   width:15%;
+   height:15%;
+}
+body{ 
+   background-color:#C40000;
+}
+section {
+   border-radius: 20px;
+   background-color:yellow;
+   border-left:20px solid yellow;
+   transition:margin 0.5s ease-in-out;
+   width: 25%
+}
+section:hover {
+   margin-left:20px;
+   width: 25%
+}
+p{
+   font-family:"Titan", sans-srif;
+   color:black;
+}
+button{
+   background-color yellow;
+   color: black;
+   padding: 10px 20px;
+   border-radius: 5px;
+   border: none;
+   font-size: 16px;
+   cursor: pointer;
+} 
+footer{
+   background-color: yellow;
+   padding: 20px 0;
+   text-align: center;
+   position: fixed;
+   bottom: 0;
+   width: 99%;
+   height:5%;
+   border-radius:15px;
+}
+.container{
+   max-width:960px;
+   width:100%;
+   margin: 0 auto;
+   background-color: #318600;
+   border-radius:15px
+}
+.container.full-width{
+   max-width:none;
+   margin:0;
+}
