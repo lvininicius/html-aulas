@@ -1,0 +1,35 @@
+#rodape{
+    position: fixed;
+    bottom: 0;
+    width: 200%;
+    height: 71px;
+    background-color: #7A4E48;
+    text-align: center;
+    padding: 4px;
+}
+.catalog1{
+    background-color: #7A4E48 ;
+    border-radius: 40px;
+    position:absolute;
+    width: 1111px;
+    height: 495px;
+    left: 460px;
+    top: 104px;
+}
+
+#body1{
+    background-color: rgb(57, 57, 57);
+    height:100%;
+    width: 100%;   
+}
+
+.container{
+    box-sizing: border-box;
+    position: absolute;
+    width: 439px;
+    height: 110%;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(114, 0, 0, 0.83);
+    border: none; 
+}
