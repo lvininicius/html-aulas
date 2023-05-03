@@ -4,6 +4,8 @@
     left:31px;  
 }
 
+/*TAGS HTML*/
+
 body{
     padding:0;
     max-width:100%;
@@ -20,7 +22,6 @@ header{
 }
 
 nav ul{
-    
     text-align:center;
     list-style:none;
 }
@@ -31,6 +32,25 @@ nav li{
 
 a{
     color:white;
+}
+
+/*ID E CLASS*/
+
+
+.avatar{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    right: 0;
+    top: 402px;
+    padding:10px;     
+}
+
+.carrinho{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
 }
 
 .catalog1{
@@ -69,6 +89,17 @@ a{
     border-radius: 15px
 }
 
+.catalogsec3{
+    margin: block;
+    position: relative;
+    width: 491px;
+    height: 278px;
+    background: #400B0B;
+    border-radius: 15px;
+    left: 130px;
+    bottom: -60px ;
+}
+
 .container{
     position:absolute;
     z-index:2;
@@ -90,3 +121,4 @@ a{
     height: 6vh; /* Defina a altura para 100% da altura da tela */
     background-color: #7A4E48;
     z-index:9999;
+}
