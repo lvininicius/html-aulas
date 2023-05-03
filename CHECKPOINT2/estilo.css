@@ -34,6 +34,10 @@ a{
     color:white;
 }
 
+h1{
+    color:white;
+}
+
 /*ID E CLASS*/
 
 
@@ -51,6 +55,23 @@ a{
     top: 0;
     right: 0;
     padding: 10px;
+}
+
+.flag{
+    display:inline-block;
+    margin-right:10px;
+}
+
+.vinhoqueijo{
+    width:100px;
+    position:absolute;
+    top:290px;    
+}
+
+#fontvinho{
+   position:absolute;
+   top:325px;
+   left:120px;
 }
 
 .catalog1{
@@ -98,6 +119,11 @@ a{
     border-radius: 15px;
     left: 130px;
     bottom: -60px ;
+}
+
+.catalogsec3 img{
+    width:50px;
+    height:50px;
 }
 
 .container{
