@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding:00px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1000px;
+    border: 1px solid rebeccapurple;
+    margin: 0 auto;
+}
+
+header{
+    height: 100px;
+    background: black;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    color: white;
+    padding-left: 20px;
+}
