@@ -20,3 +20,32 @@ header h1{
     color: white;
     padding-left: 20px;
 }
+
+section{
+    margin-top: 25px;
+    display:flex ;
+    flex-wrap: wrap;
+}
+
+.box{
+    border-radius: 2px red; 
+    border: 2px solid green;
+    margin-left: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px; 
+}
+
+.box img{
+    width: 400px;
+}
+
+.box h1, p{
+    padding: 20px;
+}
+footer p{
+    border: 3px solid;
+    text-align: center;
+    background-color: black;
+    color: red;
+    padding: 10px;
+}
