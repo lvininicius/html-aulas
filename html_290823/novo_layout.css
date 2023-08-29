@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    gap: 20px;
+
+    grid-template-areas:
+        "header header"
+        "meio meio2"
+        "meiob meiob"
+        "footer footer"
+    ;
+}
+
+.img1{
+    grid-area: header;
+    grid-column: 1/3;
+}
+
+.img2{
+    grid-area: footer;
+    grid-column: 1/3 ;
+}

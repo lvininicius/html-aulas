@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.container-grid{
+
+/*Transformando em grid*/
+    position: relative;
+    width: 400px;
+    margin: auto;
+    display: grid;
+    /* grid-template-columns: repeat(4, 20%); */
+    grid-template-columns: repeat(3,1fr); 
+    /* grid-template-columns: repeat( auto-fill, minmax(150px, 1fr)); */
+}
