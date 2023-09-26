@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    border:1px solid red;
+    background-color: white;
+    padding: 20px;
+}
+
+main{
+    display: flex;
+}
+
+section img{
+    width: 100%;
+    max-width: 400px;
+}
+
+/*Mobile*/
+@media screen and (max-width:480px){
+    body{
+        background-color: red;
+    }
+
+    main{
+        flex-direction: column;
+    }
+}
+
+/*Extra small divices*/
+/* @media (min-width:481px) and (max-width:797px){
+    body{
+        background-color: orange;
+    }
+} */
+
+/*Small tablet*/
+@media (min-width:768px) and (max-width:991px){
+    body{
+        background-color: blue;
+    }
+}
+
+/*Tablet/laptops*/
+
+@media (min-width:992px) and (max-width:1199px){
+    body{
+        background-color:lime;
+    }
+}
+/*Desktop*/
+@media(min-width:1200px) and (max-width:1999px){
+    body{
+        background-color: aqua;
+    }
+}
+
+@media (min-width:1920px){
+    body{
+        background-color: blueviolet;
+    }
+}
